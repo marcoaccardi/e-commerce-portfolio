@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 60px;
-  background-color: white;
+  background-color: black;
 `;
 
 export const Wrapper = styled.div`
@@ -20,10 +20,12 @@ export const Left = styled.div`
 
 export const Input = styled.input`
   border: none;
+  background-color: black;
+  border-color: gray;
 `;
 
 export const SearchContainer = styled.div`
-  border: 0.5px solid lightgray;
+  border: 0.5px solid black;
   display: flex;
   align-items: center;
   margin-left: 25px;
@@ -33,6 +35,7 @@ export const SearchContainer = styled.div`
 export const Language = styled.span`
   font-size: 14px;
   cursor: pointer;
+  color: white;
 `;
 export const Center = styled.div`
   flex: 1;
@@ -41,6 +44,7 @@ export const Center = styled.div`
 
 export const Logo = styled.h1`
   font-weight: bold;
+  color: white;
 `;
 export const Right = styled.div`
   flex: 1;
@@ -53,4 +57,5 @@ export const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
+  color: white;
 `;

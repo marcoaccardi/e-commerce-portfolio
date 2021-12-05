@@ -12,8 +12,9 @@ export const Container = styled.div`
 export const Arrow = styled.div`
   width: 50px;
   height: 50px;
-  background-color: white;
+  background-color: transparent;
   display: flex;
+  color: white;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
@@ -24,7 +25,7 @@ export const Arrow = styled.div`
   right: ${(props) => props.direction === "right" && "10px"};
   margin: auto;
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: 2;
 `;
 
