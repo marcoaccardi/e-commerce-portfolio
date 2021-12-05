@@ -1,7 +1,7 @@
 import woman from "../../assets/woman.jpeg";
-import woman2 from "../../assets/woman2.jpeg";
-import woman3 from "../../assets/woman3.jpeg";
-export const SliderItems = [
+import woman2 from "../../assets/woman8.jpg";
+import woman3 from "../../assets/woman6.jpeg";
+export const sliderItems = [
   {
     id: 1,
     image: `${woman}`,

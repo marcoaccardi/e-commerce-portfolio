@@ -17,7 +17,7 @@ import {
   ArrowForwardIosOutlined,
 } from "@mui/icons-material/";
 
-import { SliderItems } from "./slider_info";
+import { sliderItems } from "./slider_info";
 
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -34,7 +34,7 @@ const Slider = () => {
         <ArrowBackIosOutlined />
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
-        {SliderItems.map((item) => (
+        {sliderItems.map((item) => (
           <Slide bg={item.bg}>
             <ImgContainer>
               <Image src={item.image}></Image>

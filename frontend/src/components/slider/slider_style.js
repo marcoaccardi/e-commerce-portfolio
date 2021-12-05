@@ -50,12 +50,16 @@ export const ImgContainer = styled.div`
 
 export const Image = styled.img`
   height: 100%;
-  padding-left: 15%;
+  width: 130%;
+  object-fit: cover;
+  /* transform: scaleX(-1); */
+  /* padding-left: -80%; */
 `;
 
 export const InfoContainer = styled.div`
   flex: 1;
   padding: 50px;
+  z-index: 3;
 `;
 
 export const Title = styled.h1`
