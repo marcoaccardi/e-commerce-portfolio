@@ -31,6 +31,8 @@ export const ListItem = styled.li`
 
 export const Logo = styled.h1`
   color: white;
+  margin: 0;
+  padding-top: 0;
 `;
 
 export const Desc = styled.p`
@@ -55,6 +57,7 @@ export const SocialIcon = styled.div`
 
 export const Center = styled.div`
   flex: 1;
+  padding-top: 20px;
 `;
 export const ContactItem = styled.div`
   margin-bottom: 20px;
@@ -63,8 +66,7 @@ export const ContactItem = styled.div`
 `;
 
 export const Payment = styled.img`
-  height: 15%;
-  width: 20%;
+  max-width: 25%;
 `;
 
 export const Right = styled.div`
