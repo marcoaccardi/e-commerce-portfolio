@@ -5,6 +5,7 @@ import Slider from "../../components/slider/index";
 import Categories from "../../components/categories/index";
 import Products from "../../components/products/index";
 import Newsletter from "../../components/newsletter/index";
+import Footer from "../../components/footer/index";
 // import { Container } from "./home_style";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Categories />
       <Products />
       <Newsletter />
+      <Footer />
     </div>
   );
 };
