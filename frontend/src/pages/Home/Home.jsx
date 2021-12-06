@@ -1,9 +1,10 @@
 import React from "react";
-import Navbar from "../../components/navbar/navbar";
-import Announcement from "../../components/announcement/announcement";
-import Slider from "../../components/slider/slider";
-import Categories from "../../components/categories/categories";
-import Products from "../../components/products/products";
+import Navbar from "../../components/navbar/index";
+import Announcement from "../../components/announcement/index";
+import Slider from "../../components/slider/index";
+import Categories from "../../components/categories/index";
+import Products from "../../components/products/index";
+import Newsletter from "../../components/newsletter/index";
 // import { Container } from "./home_style";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Slider></Slider>
       <Categories />
       <Products />
+      <Newsletter />
     </div>
   );
 };
