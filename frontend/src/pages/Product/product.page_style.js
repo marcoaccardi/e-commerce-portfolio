@@ -98,5 +98,8 @@ export const Button = styled.button`
   border: 1px solid teal;
   cursor: pointer;
   &:hover {
+    color: black;
+    background-color: white;
+    transition: ease 0.15s;
   }
 `;
