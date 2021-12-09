@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API for ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoaccardi/e-commerce-portfolio.git"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "ecommerce",
+    "materialui"
+  ],
+  "author": "Marco Accardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoaccardi/e-commerce-portfolio/issues"
+  },
+  "homepage": "https://github.com/marcoaccardi/e-commerce-portfolio#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  }
+}
