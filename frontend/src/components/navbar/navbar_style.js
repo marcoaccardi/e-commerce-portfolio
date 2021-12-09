@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
+import { mobile } from "../../responsive";
 export const Container = styled.div`
   height: 60px;
   background-color: black;
+  ${mobile({ height: "50px " })}
 `;
 
 export const Wrapper = styled.div`
