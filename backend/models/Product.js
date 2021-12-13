@@ -1,6 +1,6 @@
-const moongoose = require("mongoose");
+const mongoose = require("mongoose");
 
-const UserProduct = new moongoose.Schema(
+const UserProduct = new mongoose.Schema(
   {
     title: { type: String, required: true, unique: true },
     desc: { type: String, required: true },
@@ -13,4 +13,4 @@ const UserProduct = new moongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Product", userProduct);
+module.exports = mongoose.model("Product", UserProduct);
