@@ -1,6 +1,6 @@
-const moongoose = require("mongoose");
+const mongoose = require("mongoose");
 
-const OrderSchema = new moongoose.Schema(
+const OrderSchema = new mongoose.Schema(
   {
     userId: { type: String, required: true },
     products: [
